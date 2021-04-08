@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react'
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export interface Profile {
+  _id: string
+  steamId: string
+  profileUrl: string
+  matchUrl: string
+  userName: string
+  avatar: string
+  lastBanCheck: Date
+  vac: boolean
+  overwatch: boolean
+  type: 'obv' | 'maybe'
+  createdAt: Date
+  updatedAt: Date
 }
 
-export default App;
+function App() {
+  const [data, setData] = useState<Profile[]>([])
+
+  useEffect(() => {
+    fetch('https://dazzling-minsky-b2c2da.netlify.app/.netlify/functions/api/profiles')
+      .then((r) => r.json())
+      .then((r) => console.log(r))
+      .catch((error) => console.log(error))
+  }, [])
+
+  return <div className="App"></div>
+}
+
+export default App
