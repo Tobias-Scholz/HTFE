@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/Hacker-Tracker-FE/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/Hacker-Tracker-FE/static/js/main.72d590c3.chunk.js",
-    "main.js.map": "/Hacker-Tracker-FE/static/js/main.72d590c3.chunk.js.map",
-    "runtime-main.js": "/Hacker-Tracker-FE/static/js/runtime-main.6ffe9a06.js",
-    "runtime-main.js.map": "/Hacker-Tracker-FE/static/js/runtime-main.6ffe9a06.js.map",
-    "static/js/2.0274738b.chunk.js": "/Hacker-Tracker-FE/static/js/2.0274738b.chunk.js",
-    "static/js/2.0274738b.chunk.js.map": "/Hacker-Tracker-FE/static/js/2.0274738b.chunk.js.map",
-    "static/js/3.dbfa244e.chunk.js": "/Hacker-Tracker-FE/static/js/3.dbfa244e.chunk.js",
-    "static/js/3.dbfa244e.chunk.js.map": "/Hacker-Tracker-FE/static/js/3.dbfa244e.chunk.js.map",
+    "main.css": "/Hacker-Tracker-FE/static/css/main.6cb853ba.chunk.css",
+    "main.js": "/Hacker-Tracker-FE/static/js/main.17c1405c.chunk.js",
+    "main.js.map": "/Hacker-Tracker-FE/static/js/main.17c1405c.chunk.js.map",
+    "runtime-main.js": "/Hacker-Tracker-FE/static/js/runtime-main.6f7f8b63.js",
+    "runtime-main.js.map": "/Hacker-Tracker-FE/static/js/runtime-main.6f7f8b63.js.map",
+    "static/js/2.c9307e4f.chunk.js": "/Hacker-Tracker-FE/static/js/2.c9307e4f.chunk.js",
+    "static/js/2.c9307e4f.chunk.js.map": "/Hacker-Tracker-FE/static/js/2.c9307e4f.chunk.js.map",
+    "static/js/3.6a9e7c1e.chunk.js": "/Hacker-Tracker-FE/static/js/3.6a9e7c1e.chunk.js",
+    "static/js/3.6a9e7c1e.chunk.js.map": "/Hacker-Tracker-FE/static/js/3.6a9e7c1e.chunk.js.map",
     "index.html": "/Hacker-Tracker-FE/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/Hacker-Tracker-FE/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.0274738b.chunk.js.LICENSE.txt": "/Hacker-Tracker-FE/static/js/2.0274738b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Hacker-Tracker-FE/static/media/logo.6ce24c58.svg"
+    "static/css/main.6cb853ba.chunk.css.map": "/Hacker-Tracker-FE/static/css/main.6cb853ba.chunk.css.map",
+    "static/js/2.c9307e4f.chunk.js.LICENSE.txt": "/Hacker-Tracker-FE/static/js/2.c9307e4f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ffe9a06.js",
-    "static/js/2.0274738b.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.72d590c3.chunk.js"
+    "static/js/runtime-main.6f7f8b63.js",
+    "static/js/2.c9307e4f.chunk.js",
+    "static/css/main.6cb853ba.chunk.css",
+    "static/js/main.17c1405c.chunk.js"
   ]
 }
