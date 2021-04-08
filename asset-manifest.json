@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hacker-tracker-fe/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/hacker-tracker-fe/static/js/main.72d590c3.chunk.js",
+    "main.js.map": "/hacker-tracker-fe/static/js/main.72d590c3.chunk.js.map",
+    "runtime-main.js": "/hacker-tracker-fe/static/js/runtime-main.f065f42f.js",
+    "runtime-main.js.map": "/hacker-tracker-fe/static/js/runtime-main.f065f42f.js.map",
+    "static/js/2.0274738b.chunk.js": "/hacker-tracker-fe/static/js/2.0274738b.chunk.js",
+    "static/js/2.0274738b.chunk.js.map": "/hacker-tracker-fe/static/js/2.0274738b.chunk.js.map",
+    "static/js/3.dbfa244e.chunk.js": "/hacker-tracker-fe/static/js/3.dbfa244e.chunk.js",
+    "static/js/3.dbfa244e.chunk.js.map": "/hacker-tracker-fe/static/js/3.dbfa244e.chunk.js.map",
+    "index.html": "/hacker-tracker-fe/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/hacker-tracker-fe/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.0274738b.chunk.js.LICENSE.txt": "/hacker-tracker-fe/static/js/2.0274738b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hacker-tracker-fe/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f065f42f.js",
+    "static/js/2.0274738b.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.72d590c3.chunk.js"
+  ]
+}
