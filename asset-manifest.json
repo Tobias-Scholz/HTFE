@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Hacker-Tracker-FE/static/css/main.2d6316c0.chunk.css",
+    "main.css": "/Hacker-Tracker-FE/static/css/main.48b77e15.chunk.css",
     "main.js": "/Hacker-Tracker-FE/static/js/main.95359f04.chunk.js",
     "main.js.map": "/Hacker-Tracker-FE/static/js/main.95359f04.chunk.js.map",
     "runtime-main.js": "/Hacker-Tracker-FE/static/js/runtime-main.6533773a.js",
@@ -10,13 +10,13 @@
     "static/js/3.d20c983e.chunk.js": "/Hacker-Tracker-FE/static/js/3.d20c983e.chunk.js",
     "static/js/3.d20c983e.chunk.js.map": "/Hacker-Tracker-FE/static/js/3.d20c983e.chunk.js.map",
     "index.html": "/Hacker-Tracker-FE/index.html",
-    "static/css/main.2d6316c0.chunk.css.map": "/Hacker-Tracker-FE/static/css/main.2d6316c0.chunk.css.map",
+    "static/css/main.48b77e15.chunk.css.map": "/Hacker-Tracker-FE/static/css/main.48b77e15.chunk.css.map",
     "static/js/2.183ce378.chunk.js.LICENSE.txt": "/Hacker-Tracker-FE/static/js/2.183ce378.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6533773a.js",
     "static/js/2.183ce378.chunk.js",
-    "static/css/main.2d6316c0.chunk.css",
+    "static/css/main.48b77e15.chunk.css",
     "static/js/main.95359f04.chunk.js"
   ]
 }
