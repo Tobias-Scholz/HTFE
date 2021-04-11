@@ -1,5 +1,5 @@
-import { createMuiTheme, ThemeProvider } from '@material-ui/core'
-import { green, purple } from '@material-ui/core/colors'
+import { createMuiTheme, ThemeProvider, Typography } from '@material-ui/core'
+import { green, purple, red } from '@material-ui/core/colors'
 import LinearProgress from '@material-ui/core/LinearProgress'
 import React, { useEffect, useState } from 'react'
 import './App.css'
@@ -20,11 +20,12 @@ export interface PlayerProfile {
   updatedAt: Date
   encountered: Date
   daysSinceLastBan: number
+  comment: string
 }
 
 const theme = createMuiTheme({
   palette: {
-    primary: purple,
+    primary: red,
     secondary: green,
   },
 })
@@ -51,7 +52,8 @@ function App() {
       <ThemeProvider theme={theme}>
         {loading && <LinearProgress />}
         <div className="App">
-          <ProfileList list={data}></ProfileList>
+          <ProfileList list={data.filter((p) => p.type === 'obv')} headline="Obvious"></ProfileList>
+          <ProfileList list={data.filter((p) => p.type === 'maybe')} headline="Vielleicht"></ProfileList>
         </div>
       </ThemeProvider>
     </div>

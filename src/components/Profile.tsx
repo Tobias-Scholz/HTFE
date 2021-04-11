@@ -16,6 +16,7 @@ export const Profile = ({ profile }: { profile: PlayerProfile }) => {
         </a>
       </TableCell>
       <TableCell align="left">{dayjs(profile.encountered).format('DD.MM.YYYY HH:mm:ss')}</TableCell>
+      <TableCell align="left">{profile.comment}</TableCell>
       <TableCell align="left">
         <a href={profile.matchUrl} target="blank">
           {profile.matchUrl}
