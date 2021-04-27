@@ -5,6 +5,10 @@ import './Profile.css'
 import dayjs from 'dayjs'
 
 export const Profile = ({ profile }: { profile: PlayerProfile }) => {
+  if (profile.vac || profile.overwatch) {
+    console.log(profile)
+  }
+
   return (
     <TableRow key={profile.steamId}>
       <TableCell align="left">
@@ -25,7 +29,10 @@ export const Profile = ({ profile }: { profile: PlayerProfile }) => {
       <TableCell align="left">
         {profile.vac || profile.overwatch ? (
           <Tooltip
-            title={new Date().getTime() - profile.banDate.getTime() / 1000 / 60 / 60 / 24 + ' days since last ban'}
+            title={
+              Math.ceil((new Date().getTime() - new Date(profile.banDate).getTime()) / 1000 / 60 / 60 / 24) +
+              ' days since last ban'
+            }
           >
             <span className="ban">{profile.vac ? 'VAC' : 'Overwatch'}</span>
           </Tooltip>
