@@ -19,7 +19,7 @@ export interface PlayerProfile {
   createdAt: Date
   updatedAt: Date
   encountered: Date
-  daysSinceLastBan: number
+  banDate: Date
   comment: string
 }
 
