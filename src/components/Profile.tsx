@@ -34,7 +34,12 @@ export const Profile = ({ profile }: { profile: PlayerProfile }) => {
               ' days since last ban'
             }
           >
-            <span className="ban">{profile.vac ? 'VAC' : 'Overwatch'}</span>
+            <span className="ban">
+              {(profile.vac ? 'VAC' : 'Overwatch') +
+                ' (' +
+                Math.ceil((new Date().getTime() - new Date(profile.banDate).getTime()) / 1000 / 60 / 60 / 24) +
+                ')'}
+            </span>
           </Tooltip>
         ) : (
           ''

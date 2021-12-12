@@ -1,9 +1,10 @@
-import { createMuiTheme, ThemeProvider, Typography } from '@material-ui/core'
-import { green, purple, red } from '@material-ui/core/colors'
+import { createMuiTheme, ThemeProvider } from '@material-ui/core'
+import { green, red } from '@material-ui/core/colors'
 import LinearProgress from '@material-ui/core/LinearProgress'
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import { ProfileList } from './components/ProfileList'
+import { Showcase } from './Showcase'
 
 export interface PlayerProfile {
   _id: string
@@ -26,8 +27,8 @@ export interface PlayerProfile {
 const theme = createMuiTheme({
   palette: {
     primary: red,
-    secondary: green,
-  },
+    secondary: green
+  }
 })
 
 function App() {
@@ -37,7 +38,7 @@ function App() {
   useEffect(() => {
     setLoading(true)
     fetch('https://dazzling-minsky-b2c2da.netlify.app/.netlify/functions/api/profiles', {
-      headers: { 'Cache-Control': 'no-store, no-cache' },
+      headers: { 'Cache-Control': 'no-store, no-cache' }
     })
       .then((r) => r.json())
       .then((r) => {
@@ -51,6 +52,7 @@ function App() {
     <div className="root">
       <ThemeProvider theme={theme}>
         {loading && <LinearProgress />}
+        <Showcase profiles={data}></Showcase>
         <div className="App">
           <ProfileList list={data.filter((p) => p.type === 'obv')} headline="Obvious"></ProfileList>
           <ProfileList list={data.filter((p) => p.type === 'maybe')} headline="Vielleicht"></ProfileList>
