@@ -52,7 +52,6 @@ function App() {
     <div className="root">
       <ThemeProvider theme={theme}>
         {loading && <LinearProgress />}
-        <Showcase profiles={data}></Showcase>
         <div className="App">
           <ProfileList list={data.filter((p) => p.type === 'obv')} headline="Obvious"></ProfileList>
           <ProfileList list={data.filter((p) => p.type === 'maybe')} headline="Vielleicht"></ProfileList>
